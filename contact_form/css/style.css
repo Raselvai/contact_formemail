@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+body {
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.contact_wrapper {
+  width: 100%;
+  height: 100vh;
+  padding: 80px 0;
+}
+
+.contact_wrapper .contact_wrap {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.contact_wrapper .contact_wrap h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contact_wrapper .contact_wrap input,
+.contact_wrapper .contact_wrap textarea {
+  width: 100%;
+  height: 50px;
+  border: transparent;
+  background: #ffffff;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.contact_wrapper .contact_wrap textarea {
+  height: 150px;
+  padding-top: 15px;
+  resize: none;
+}
+
+.contact_wrapper .contact_wrap button {
+  width: 100%;
+  height: 50px;
+  border: transparent;
+  background: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
